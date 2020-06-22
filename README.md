@@ -1,3 +1,5 @@
+![Discord-Music-Bot](https://github.com/Pentium1080Ti/Discord-Music-Bot/workflows/Discord-Music-Bot/badge.svg)
+
 # Discord Music Bot
 
 A simple music bot written in Rust. It uses the [serenity](https://github.com/serenity-rs/serenity) wrapper for the DAPI.
