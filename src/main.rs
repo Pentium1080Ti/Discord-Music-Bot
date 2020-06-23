@@ -35,7 +35,7 @@ impl EventHandler for Handler {
 struct General;
 
 fn main() {
-    let mut client = Client::new("", Handler)
+    let mut client = Client::new("bot token goes here", Handler)
         .expect("failed to create client");
 
     {
@@ -45,7 +45,7 @@ fn main() {
 
     client.with_framework(StandardFramework::new()
         .configure(|c| c
-            .prefix(""))
+            .prefix("."))
         .group(&GENERAL_GROUP));
 
     let _ = client.start().map_err(|e| println!("failed to start client: {:?}", e));
