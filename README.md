@@ -33,8 +33,6 @@ The binary is in `target/release/discord_music_bot`
 
 In order for the bot to run, you need to add your [token](https://github.com/Pentium1080Ti/Discord-Music-Bot/blob/4a72d6e2a8ca58facaabece03eb31f67c5ed3150/src/main.rs#L38) and a [prefix](https://github.com/Pentium1080Ti/Discord-Music-Bot/blob/4a72d6e2a8ca58facaabece03eb31f67c5ed3150/src/main.rs#L48) to the bot.
 
-
-
 ## Commands
 
 - `<prefix>join`

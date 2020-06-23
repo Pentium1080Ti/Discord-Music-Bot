@@ -1,4 +1,4 @@
-name: Rust
+name: Discord-Music-Bot
 
 on:
   push:
